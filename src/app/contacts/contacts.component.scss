@@ -1,0 +1,12 @@
+@import "../variabiles.scss";
+
+.home-container{
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url('/assets/images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  @include flex-col;
+  align-items: center;
+
+}
